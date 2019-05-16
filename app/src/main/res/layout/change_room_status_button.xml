@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Room Status"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff">
+
+    </TextView>
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/select_hostel"
+            android:layout_height="wrap_content"
+            android:text="Select Hostel:"/>
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_hostel_spinner">
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/select_floor"
+            android:layout_height="wrap_content"
+            android:text="Select Floor:"/>
+        <Space
+            android:layout_width="38dp"
+            android:layout_height="38dp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_floor_spinner">
+
+        </Spinner>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/select_room"
+            android:layout_height="wrap_content"
+            android:text="Select Room No.:"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_room_spinner">
+
+        </Spinner>
+    </LinearLayout>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/select_Bed_No."
+            android:layout_height="wrap_content"
+            android:text="Select Bed NO.:"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_bedno._spinner">
+
+        </Spinner>
+    </LinearLayout>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/select_status."
+            android:layout_height="wrap_content"
+            android:text="Select status:"/>
+        <Space
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+    </LinearLayout>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Change Status"
+        android:id="@+id/change_status_button"/>
+
+</LinearLayout>

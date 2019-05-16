@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/add_hostel"
+        android:layout_width="151dp"
+        android:layout_height="129dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Add Hostel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_welcome_text" />
+
+    <Button
+        android:id="@+id/add_room"
+        android:layout_width="151dp"
+        android:layout_height="129dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="184dp"
+        android:text="Add Room"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_welcome_text" />
+
+    <Button
+        android:id="@+id/delete_room"
+        android:layout_width="151dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="28dp"
+        android:text="Delete Room"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delete_hostel" />
+
+    <Button
+        android:id="@+id/create_admin_account"
+        android:layout_width="151dp"
+        android:layout_height="129dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Create Admin account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_room" />
+
+    <TextView
+        android:id="@+id/username_welcome_text"
+        android:layout_width="288dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/change_room_status"
+        android:layout_width="151dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Change Room Status"
+        android:onClick="change_room_status_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_welcome_text" />
+
+    <Button
+        android:id="@+id/delete_hostel"
+        android:layout_width="151dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="27dp"
+        android:text="Delete Hostel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change_room_status" />
+</android.support.constraint.ConstraintLayout>
